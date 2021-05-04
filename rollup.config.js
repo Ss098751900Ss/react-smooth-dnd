@@ -1,6 +1,6 @@
-import babel from 'rollup-plugin-babel';
+import babel from '@rollup/plugin-babel';
 import { uglify } from "rollup-plugin-uglify";
-import commonjs from 'rollup-plugin-commonjs';
+import commonjs from '@rollup/plugin-commonjs';
 const extensions = [
 	'.js', '.jsx', '.ts', '.tsx',
 ];
